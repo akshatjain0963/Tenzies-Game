@@ -85,7 +85,7 @@ export default function App() {
                 {diceElements}
             </div>
             <button className="roll-dice" onClick={rollDice}>
-             {tenzies ? "NEW GAME" : "ROLL"}
+             {tenzies ? "NEW GAME!" : "ROLL"}
               </button>
               <h2>AKSHAT JAIN</h2>
         </main>
