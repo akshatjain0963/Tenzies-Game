@@ -87,6 +87,7 @@ export default function App() {
             <button className="roll-dice" onClick={rollDice}>
              {tenzies ? "NEW GAME" : "ROLL"}
               </button>
+              <h2>AKSHAT JAIN</h2>
         </main>
     )
 }
