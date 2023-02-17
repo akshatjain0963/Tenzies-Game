@@ -16,20 +16,8 @@ export default function App() {
         const allSameValue = dice.every(die => die.value===firstValue)
         if(allHeld && allSameValue){
           setTenzies(true)
-          console.log("wonnn")
         }
-        
-        console.log("Dice state changed")
     }, [dice])
-/**
- * Challenge: Check the dice array for these winning conditions:
- * 1. All dice are held, and
- * 2. all dice have the same value
- * 
- * If both conditions are true, set `tenzies` to true and log
- * "You won!" to the console
- */
-
     function generateNewDie() {
         return {
             value: Math.ceil(Math.random() * 6),
