@@ -1,0 +1,4 @@
+root: C:\Users\Anuj_\OneDrive\Desktop\Projects\tenzies 
+path: C:\Program Files\nodejs 
+arch: 64 
+proxy: none
